@@ -15,7 +15,7 @@ a {
 blockquote {
     color: #cccccc;
     font-style: italic;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 h1 {
@@ -23,6 +23,7 @@ h1 {
     font-family: 'Anton', Arial, sans-serif;
     font-weight: bold;
     font-size: 40px;
+    text-shadow: 2px 1px 2px #000000;
 }
 
 
