@@ -3,12 +3,26 @@
 body {
     background-color: #ffffff;
     color: #000000;
-    font-family: Raleway, Arial, sans-serif;
+    font-family: 'Questrial', Arial, sans-serif;
 }
 
-/* Header styles */
+a {
+    text-decoration: none;
+}
+
+/* Header and blockquote styles */
+
+blockquote {
+    color: #cccccc;
+    font-style: italic;
+    font-size: 18px;
+}
 
 h1 {
-    
+    color: #BA0419;
+    font-family: 'Anton', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
 }
-    
+
+
