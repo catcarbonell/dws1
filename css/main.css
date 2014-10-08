@@ -4,10 +4,20 @@ body {
     background-color: #ffffff;
     color: #000000;
     font-family: 'Questrial', Arial, sans-serif;
+    font-size: 14px;
 }
 
 a {
     text-decoration: none;
+}
+
+p {
+    letter-spacing: 1px;
+    line-height: 2em;
+}
+
+li {
+    line-height: 2em;
 }
 
 /* Header and blockquote styles */
@@ -20,10 +30,25 @@ blockquote {
 
 h1 {
     color: #BA0419;
-    font-family: 'Anton', Arial, sans-serif;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 5em;
     font-weight: bold;
-    font-size: 40px;
-    text-shadow: 2px 1px 2px #000000;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 1px 2px #999999;
+}
+
+
+h2 {
+    color: #FFD409;
+    font-family: 'Anton', Arial, sans-serif;
+    font-size: 2em;
+    margin-bottom: -1.3%;
+}
+
+h3 {
+    color: #375695;
+    font-family: 'Anton', Arial, sans-serif;
+    font-size: 1.5em;
 }
 
 
