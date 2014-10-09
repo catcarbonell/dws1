@@ -22,7 +22,14 @@ figure {
     margin: 10px 40px auto;
     padding: 15px 20px;
     width: 20%;
+    vertical-align: top;
+    text-align: center;
+}
 
+img {
+    border: 0;
+    margin: 0 auto;
+    padding: 0;
 }
 
 /* TEXT STYLES */
@@ -93,7 +100,7 @@ h3 {
 h4 {
     color: #BA0419;
     font-family: 'Oswald', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 
