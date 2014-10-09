@@ -1,6 +1,8 @@
 /* GLOBAL STYLES */
 
 body {
+    background-image: url(../images/sunstars.png);
+    background-repeat: repeat;
     background-color: #333333;
     color: #000000;
     font-family: 'Questrial', Arial, sans-serif;
@@ -11,6 +13,9 @@ div {
     padding: 20px 20px;
     background-color: #ffffff;
     border-radius: 20px;
+    -webkit-box-shadow: 9px 10px 13px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 9px 10px 13px 0px rgba(0,0,0,0.45);
+    box-shadow: 9px 10px 13px 0px rgba(0,0,0,0.45);
     opacity: 0.8
 }
 
@@ -130,7 +135,7 @@ h4 {
     text-align: center;
 }
 
-#mainheader p, a {
+#mainheader p,a{
     margin-top: -35px;
     color: #375695;
     font-family: Georgia, serif;
