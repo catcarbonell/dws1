@@ -15,6 +15,7 @@ div {
 }
 
 a {
+    font-family: 'Questrial', Arial, sans-serif;
     text-decoration: none;
 }
 
@@ -92,6 +93,33 @@ h4 {
     padding: 0;
 }
 
+.menu a {
+    color: #BA0419;
+    font-family: 'Anton', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    font-family: 'Anton', Arial, sans-serif;
+    color: #375695;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu a:visited {
+    font-family: 'Anton', Arial, sans-serif;
+    color: #BA0419;
+    font-size: 1.5em;
+}
+
+.menu a:visited:hover {
+    font-family: 'Anton', Arial, sans-serif;
+    color: #375695;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 
 /* DIV IDs */
 
@@ -102,7 +130,7 @@ h4 {
     text-align: center;
 }
 
-#mainheader p, a{
+#mainheader p, a {
     margin-top: -35px;
     color: #375695;
     font-family: Georgia, serif;
@@ -113,21 +141,21 @@ h4 {
 
 /* DIV - MAINNAV */
 
-#mainnav a{
+#mainnav a {
     color: #BA0419;
     font-family: 'Anton', Arial, sans-serif;
     font-size: 2em;
     font-weight: bold;
 }
 
-#mainnav a:hover{
+#mainnav a:hover {
     font-family: 'Anton', Arial, sans-serif;
     color: #375695;
     font-size: 2em;
     font-weight: bold;
 }
 
-#mainnav a:visited{
+#mainnav a:visited {
     font-family: 'Anton', Arial, sans-serif;
     color: #BA0419;
     font-size: 2em;
