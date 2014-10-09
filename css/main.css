@@ -1,10 +1,17 @@
 /* Global styles */
 
 body {
-    background-color: #ffffff;
+    background-color: #eeeeee;
     color: #000000;
     font-family: 'Questrial', Arial, sans-serif;
-    font-size: 14px;
+}
+
+div {
+    margin: 25px auto;
+    padding: 1%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    opacity: 0.8;
 }
 
 a {
@@ -17,6 +24,8 @@ p {
 }
 
 li {
+    display: inline;
+    text-align: center;
     line-height: 2em;
 }
 
@@ -37,7 +46,6 @@ h1 {
     text-shadow: 2px 1px 2px #999999;
 }
 
-
 h2 {
     color: #FFD409;
     font-family: 'Anton', Arial, sans-serif;
@@ -49,6 +57,22 @@ h3 {
     color: #375695;
     font-family: 'Anton', Arial, sans-serif;
     font-size: 1.5em;
+}
+
+h4 {
+
+}
+
+/* Class */
+ul.menu {
+    text-align: center;
+}
+
+/* Div IDs */
+
+#mainheader {
+    display: block;
+    text-align: center;
 }
 
 
