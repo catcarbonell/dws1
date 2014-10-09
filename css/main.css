@@ -7,8 +7,8 @@ body {
 }
 
 div {
-    margin: 20px 20px auto;
-    padding: 20px;
+    margin: 40px 40px auto;
+    padding: 20px 20px;
     background-color: #ffffff;
     border-radius: 20px;
     opacity: 0.8
@@ -61,7 +61,7 @@ h2 {
     margin-bottom: -1.3%;
     color: #FFCC00;
     font-family: 'Anton', Arial, sans-serif;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
 
 }
@@ -108,14 +108,14 @@ h4 {
 #mainnav a{
     color: #BA0419;
     font-family: 'Anton', Arial, sans-serif;
-    font-size: 1.3em;
+    font-size: 2em;
     font-weight: bold;
 }
 
 #mainnav a:hover{
     font-family: 'Anton', Arial, sans-serif;
     color: #375695;
-    font-size: 1.3em;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -128,7 +128,7 @@ h4 {
 #mainnav a:visited:hover {
     font-family: 'Anton', Arial, sans-serif;
     color: #375695;
-    font-size: 1.3em;
+    font-size: 2em;
     font-weight: bold;
 }
 
