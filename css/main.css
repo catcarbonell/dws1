@@ -60,6 +60,7 @@ figcaption{
     padding: 0;
     width: 45%;
 }
+
 img {
     border: 0;
     margin: 0 auto;
@@ -219,7 +220,8 @@ div.gallery {
 
 /* DIV -- MAIN NAVIGATION */
 div#mainnav {
-    margin-top: 65px;
+
+    margin: 0 5%;
     padding-top: 40px;
 }
 #mainnav li{
@@ -257,7 +259,8 @@ div#mainnav {
     display: inline-block;
     float:left;
     width: 50%;
-    margin: 3em 4em auto;
+    padding: 1.5em;
+    margin: 3em 4em 5em;
 }
 
 /* DIV -- WEAPONS */
@@ -266,7 +269,7 @@ div#mainnav {
     float:left;
     width: 25%;
     padding: 1.5em;
-    margin: 1.8em 4em auto;
+    margin: 1.8em 4em;
 }
 
 img#weapons {
@@ -275,6 +278,7 @@ img#weapons {
 
 #figures{
     clear: left;
+    margin: 3em 4em;
 }
 /* DIV -- CLEAR
 
