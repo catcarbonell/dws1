@@ -6,6 +6,45 @@ body {
     font-family: 'Questrial', Arial, sans-serif;
 }
 
+/* GLOBAL LINKS */
+
+a {
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+a:hover {
+    font-family: 'Oswald', Arial, sans-serif;
+    color: #375695;
+
+}
+
+a:active {
+    font-family: 'Oswald', Arial, sans-serif;
+    color: #FFCC00;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a:visited {
+    font-family: 'Oswald', Arial, sans-serif;
+    color: #AA0419;
+    font-size: 1.5em;
+}
+
+a:visited:hover {
+    font-family: 'Oswald', Arial, sans-serif;
+    color: #375695;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
 /* DISPLAY STYLES */
 
 div {
@@ -34,10 +73,6 @@ img {
 }
 
 /* TEXT STYLES */
-a {
-    font-family: 'Questrial', Arial, sans-serif;
-    text-decoration: none;
-}
 
 p {
     padding-left: 3em;
@@ -55,14 +90,15 @@ li {
     line-height: 2em;
 }
 
-span a{
-    color: #BA0419;
-}
-
 strong {
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 1.3em;
     letter-spacing: -0.5px;
+}
+
+span {
+    font-weight: bold;
+    color: #BA0419;
 }
 
 blockquote {
@@ -115,46 +151,37 @@ h4 {
 
 /* CLASS -- MENU */
 .menu {
-    text-align: center;
     margin-top: 2px;
     list-style: none;
     padding: 0;
-    letter-spacing: 1px;
-}
-
-.menu a {
-    color: #BA0419;
     font-family: 'Oswald', Arial, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
     text-transform: lowercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.menu a{
+    color: #BA0419;
+    font-family: 'Oswald', Arial, sans-serif;
+
 }
 
 .menu a:hover {
-    font-family: 'Oswald', Arial, sans-serif;
     color: #375695;
-    font-size: 1.5em;
-    font-weight: bold;
 }
 
 .menu a:active {
-    font-family: 'Oswald', Arial, sans-serif;
     color: #FFCC00;
-    font-size: 1.5em;
-    font-weight: bold;
 }
 
 .menu a:visited {
-    font-family: 'Oswald', Arial, sans-serif;
     color: #AA0419;
-    font-size: 1.5em;
 }
 
 .menu a:visited:hover {
-    font-family: 'Oswald', Arial, sans-serif;
     color: #375695;
-    font-size: 1.5em;
-    font-weight: bold;
 }
 
 /* CLASS -- GALLERY */
@@ -177,7 +204,7 @@ div.gallery {
     text-align: center;
 }
 
-#mainheader p,a{
+#mainheader a{
     margin-top: -35px;
     color: #375695;
     font-family: Georgia, serif;
@@ -187,6 +214,11 @@ div.gallery {
     text-transform: uppercase;
 }
 
+#mainheader p{
+    margin-top: -35px;
+    text-align: center;
+}
+
 /* DIV - MAIN NAVIGATION */
 div#mainnav {
     margin-top: 65px;
@@ -194,37 +226,26 @@ div#mainnav {
 }
 #mainnav a {
     color: #BA0419;
-    font-family: 'Anton', Arial, sans-serif;
-    font-size: 2em;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 #mainnav a:active {
-    font-family: 'Anton', Arial, sans-serif;
     color: #FFCC00;
-    font-size: 2em;
-    font-weight: bold;
 }
 
 #mainnav a:hover {
-    font-family: 'Anton', Arial, sans-serif;
     color: #375695;
-    font-size: 2em;
-    font-weight: bold;
 }
 
 #mainnav a:visited {
-    font-family: 'Anton', Arial, sans-serif;
     color: #BA0419;
-    font-size: 2em;
 }
 
 #mainnav a:visited:hover {
-    font-family: 'Anton', Arial, sans-serif;
     color: #375695;
-    font-size: 2em;
-    font-weight: bold;
 }
 
 
