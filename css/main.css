@@ -53,6 +53,7 @@ figure {
     width: 20%;
     vertical-align: top;
     text-align: center;
+    overflow: hidden;
 }
 
 img {
@@ -182,6 +183,7 @@ div.gallery {
     box-shadow: none;
     border: 0;
     width: 95%;
+    overflow: auto;
 }
 
 /* DIV IDs */
