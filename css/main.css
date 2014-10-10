@@ -28,7 +28,6 @@ a:active {
 
 a:visited {
     color: #AA0419;
-
 }
 
 a:visited:hover {
@@ -36,9 +35,10 @@ a:visited:hover {
 }
 
 
-/* DISPLAY STYLES */
+/* GLOBAL DISPLAY STYLES */
 
 div {
+    border: 0;
     margin: 55px 65px;
     padding: 15px 20px;
     background-color: #ffffff;
@@ -50,7 +50,6 @@ div {
 figure {
     display: table-cell;
     margin: 10px 40px auto;
-
     width: 20%;
     vertical-align: top;
     text-align: center;
@@ -59,11 +58,11 @@ figure {
 img {
     border: 0;
     margin: 0 auto;
-    padding: 0;
+    padding: 20px;
     vertical-align: middle;
 }
 
-/* TEXT STYLES */
+/* GLOBAL TEXT STYLES */
 
 p {
     padding-left: 3em;
@@ -137,10 +136,10 @@ h4 {
     position: relative;
 }
 
-
 /* CLASSES */
 
 /* CLASS -- MENU */
+
 .menu {
     margin-top: 2px;
     list-style: none;
@@ -156,7 +155,6 @@ h4 {
 .menu a{
     color: #BA0419;
     font-family: 'Oswald', Arial, sans-serif;
-
 }
 
 .menu a:hover {
@@ -213,7 +211,7 @@ div.gallery {
 /* DIV - MAIN NAVIGATION */
 div#mainnav {
     margin-top: 65px;
-    padding-top: 35px;
+    padding-top: 40px;
 }
 #mainnav a {
     color: #BA0419;
