@@ -9,7 +9,7 @@ body {
 /* DISPLAY STYLES */
 
 div {
-    margin: 80px 80px auto;
+    margin: 55px 65px;
     padding: 20px 20px;
     background-color: #ffffff;
     border-radius: 20px;
@@ -18,9 +18,9 @@ div {
 }
 
 figure {
-    display: inline-block;
+    display: table-cell;
     margin: 10px 40px auto;
-    padding: 15px 20px;
+
     width: 20%;
     vertical-align: top;
     text-align: center;
@@ -30,6 +30,7 @@ img {
     border: 0;
     margin: 0 auto;
     padding: 0;
+    vertical-align: middle;
 }
 
 /* TEXT STYLES */
@@ -52,6 +53,10 @@ li {
     display: inline;
     text-align: center;
     line-height: 2em;
+}
+
+span a{
+    color: #BA0419;
 }
 
 strong {
@@ -86,7 +91,6 @@ h2 {
     font-family: 'Anton', Arial, sans-serif;
     font-size: 4em;
     text-align: center;
-
 }
 
 h3 {
@@ -98,9 +102,12 @@ h3 {
 }
 
 h4 {
+    margin: auto;
     color: #BA0419;
     font-family: 'Oswald', Arial, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
 }
 
 
@@ -109,32 +116,42 @@ h4 {
 /* CLASS -- MENU */
 .menu {
     text-align: center;
-    list-style:none;
+    margin-top: 2px;
+    list-style: none;
     padding: 0;
+    letter-spacing: 1px;
 }
 
 .menu a {
     color: #BA0419;
-    font-family: 'Anton', Arial, sans-serif;
+    font-family: 'Oswald', Arial, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
+    text-transform: lowercase;
 }
 
 .menu a:hover {
-    font-family: 'Anton', Arial, sans-serif;
+    font-family: 'Oswald', Arial, sans-serif;
     color: #375695;
     font-size: 1.5em;
     font-weight: bold;
 }
 
+.menu a:active {
+    font-family: 'Oswald', Arial, sans-serif;
+    color: #FFCC00;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 .menu a:visited {
-    font-family: 'Anton', Arial, sans-serif;
-    color: #BA0419;
+    font-family: 'Oswald', Arial, sans-serif;
+    color: #AA0419;
     font-size: 1.5em;
 }
 
 .menu a:visited:hover {
-    font-family: 'Anton', Arial, sans-serif;
+    font-family: 'Oswald', Arial, sans-serif;
     color: #375695;
     font-size: 1.5em;
     font-weight: bold;
@@ -142,11 +159,13 @@ h4 {
 
 /* CLASS -- GALLERY */
 
-ul li.gallery {
+div.gallery {
     display: inline-block;
-    margin: 0 auto;
-    width: 250px;
-    list-style-type: none;
+    margin: 10px 0 auto;
+    padding-left: 4%;
+    box-shadow: none;
+    border: 0;
+    width: 95%;
 }
 
 /* DIV IDs */
@@ -165,13 +184,25 @@ ul li.gallery {
     font-size: 1em;
     font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
 }
 
 /* DIV - MAIN NAVIGATION */
-
+div#mainnav {
+    margin-top: 65px;
+    padding-top: 35px;
+}
 #mainnav a {
     color: #BA0419;
     font-family: 'Anton', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#mainnav a:active {
+    font-family: 'Anton', Arial, sans-serif;
+    color: #FFCC00;
     font-size: 2em;
     font-weight: bold;
 }
@@ -195,5 +226,6 @@ ul li.gallery {
     font-size: 2em;
     font-weight: bold;
 }
+
 
 
