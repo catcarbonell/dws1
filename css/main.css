@@ -9,6 +9,7 @@ body {
 /* GLOBAL LINKS */
 
 a {
+    color: #BA0419;
     font-family: 'Oswald', Arial, sans-serif;
     font-size: 1em;
     font-weight: bold;
@@ -19,29 +20,20 @@ a {
 
 
 a:hover {
-    font-family: 'Oswald', Arial, sans-serif;
     color: #375695;
-
 }
 
 a:active {
-    font-family: 'Oswald', Arial, sans-serif;
     color: #FFCC00;
-    font-size: 1.5em;
-    font-weight: bold;
 }
 
 a:visited {
-    font-family: 'Oswald', Arial, sans-serif;
     color: #AA0419;
-    font-size: 1.5em;
+
 }
 
 a:visited:hover {
-    font-family: 'Oswald', Arial, sans-serif;
     color: #375695;
-    font-size: 1.5em;
-    font-weight: bold;
 }
 
 
