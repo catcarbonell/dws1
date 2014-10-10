@@ -34,7 +34,6 @@ a:visited:hover {
     color: #375695;
 }
 
-
 /* GLOBAL DISPLAY STYLES */
 
 div {
@@ -188,7 +187,7 @@ div.gallery {
 
 /* DIV IDs */
 
-/* DIV - MAIN HEADER */
+/* DIV -- MAIN HEADER */
 
 #mainheader {
     display: block;
@@ -210,7 +209,7 @@ div.gallery {
     text-align: center;
 }
 
-/* DIV - MAIN NAVIGATION */
+/* DIV -- MAIN NAVIGATION */
 div#mainnav {
     margin-top: 65px;
     padding-top: 40px;
