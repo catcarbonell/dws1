@@ -1,7 +1,9 @@
 /* GLOBAL STYLE */
 
 body {
-    background: #333333 url(../images/sunstars.png) repeat;
+    background: #333333 url(../images/sunstars.png);
+    background-repeat: repeat;
+    background-position: left;
     color: #000000;
     font-family: 'Questrial', Arial, sans-serif;
 }
