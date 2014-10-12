@@ -197,6 +197,7 @@ div.gallery {
     display: inline-block;
     margin: auto;
     padding-left: 4%;
+    background: none;
     box-shadow: none;
     border: 0;
     width: 95%;
