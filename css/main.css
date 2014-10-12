@@ -220,36 +220,39 @@ div.gallery {
 
 /* DIV -- MAIN NAVIGATION */
 div#mainnav {
-
-    margin: 0 5%;
+    margin: 0 auto;
     padding-top: 40px;
+    border-radius: 0;
+    box-shadow: none;
 }
-#mainnav li{
+
+li#mainnav {
     display: inline;
     text-align: center;
-    line-height: 2em;
+    line-height: 1.5em;
 }
-#mainnav a:link {
+
+a:link#mainnav {
     color: #BA0419;
     font-family: 'Oswald', Arial, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-#mainnav a:active {
+a:active#mainnav {
     color: #FFCC00;
 }
 
-#mainnav a:hover {
+a:hover#mainnav {
     color: #375695;
 }
 
-#mainnav a:visited {
+a:visited#mainnav {
     color: #BA0419;
 }
 
-#mainnav a:visited:hover {
+a:visited:hover#mainnav {
     color: #375695;
 }
 
