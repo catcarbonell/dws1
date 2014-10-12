@@ -71,6 +71,11 @@ img {
     padding: 2em;
     vertical-align: middle;
 }
+@-moz-document url-prefix() {
+    img {
+        width: 75%;
+    }
+}
 
 /* GLOBAL TEXT STYLES */
 
