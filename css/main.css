@@ -61,7 +61,7 @@ figcaption{
     margin: 0 auto;
     padding: 0;
     width: 75%;
-    font-size: 0.75em;
+    font-size: 0.8em;
 }
 
 img {
@@ -92,7 +92,7 @@ p {
 
 li {
     width: 75%;
-    margin: 10px auto;
+    margin: auto;
     line-height: 2em;
 }
 strong {
@@ -282,15 +282,15 @@ a:visited:hover#mainnav {
     float:left;
     width: 53%;
     padding: 1.5em;
-    margin: 2.5% 1% 5% 10%;
+    margin: 2.5% 1% 10% 10%;
 }
 
 /* DIV -- WEAPONS */
 
 #weapons {
     float:left;
-    width: 18.37%;
-    padding: 1.5em;
+    width: 18.3%;
+    padding: 1.3em;
     margin: 1% auto;
 }
 
