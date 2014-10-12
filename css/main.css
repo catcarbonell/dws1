@@ -276,9 +276,15 @@ img#weapons {
     width: 2em;
 }
 
+/* DIV -- FIGURES */
+
 #figures{
     clear: left;
     margin: 3em 4em;
+}
+
+#figures a:link{
+    text-transform: none;
 }
 /* DIV -- CLEAR
 
