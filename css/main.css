@@ -282,16 +282,16 @@ a:visited:hover#mainnav {
     float:left;
     width: 53%;
     padding: 1.5em;
-    margin: 2.5% 1% 10% 10%;
+    margin: 3% 1% 10% 10%;
 }
 
 /* DIV -- WEAPONS */
 
 #weapons {
     float:left;
-    width: 18.3%;
+    width: 19%;
     padding: 1.3em;
-    margin: 1% auto;
+    margin: 1.65% auto;
 }
 
 img#weapons {

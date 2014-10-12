@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ee40414-faf3-4b98-b6aa-050fbb5f83c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="dws1.iws" />
@@ -49,8 +48,8 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5092437" vertical-offset="3957" max-vertical-offset="4875">
-              <caret line="284" column="22" selection-start-line="284" selection-start-column="22" selection-end-line="284" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.43361345" vertical-offset="4107" max-vertical-offset="4875">
+              <caret line="291" column="13" selection-start-line="291" selection-start-column="13" selection-end-line="291" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -259,8 +258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5092437" vertical-offset="3957" max-vertical-offset="4875">
-          <caret line="284" column="22" selection-start-line="284" selection-start-column="22" selection-end-line="284" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.43361345" vertical-offset="4107" max-vertical-offset="4875">
+          <caret line="291" column="13" selection-start-line="291" selection-start-column="13" selection-end-line="291" selection-end-column="13" />
           <folding />
         </state>
       </provider>
