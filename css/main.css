@@ -65,6 +65,7 @@ figcaption{
 
 img {
     border: 0;
+    max-width: 75%;
     height: auto;
     margin: 0 auto;
     padding: 2em;
@@ -75,7 +76,7 @@ img {
 
 p {
     width: 85%;
-    margin: 10px auto;
+    margin: 2% auto;
     letter-spacing: 1px;
     line-height: 2em;
     text-indent: 2em;
