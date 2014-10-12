@@ -50,7 +50,7 @@ div {
 
 figure {
     display: table-cell;
-    margin: 10px 40px auto;
+    margin: 2% 4% auto;
     width: 9%;
     vertical-align: top;
     text-align: center;
@@ -71,6 +71,7 @@ img {
     padding: 2em;
     vertical-align: middle;
 }
+
 @-moz-document url-prefix() {
     img {
         width: 75%;
@@ -105,7 +106,6 @@ span {
 }
 
 blockquote {
-    margin-top: -50px;
     color: #aaaaaa;
     font-family: Georgia, serif;
     font-style: italic;
@@ -115,7 +115,7 @@ blockquote {
 /* HEADERS */
 
 h1 {
-    margin-top: 2px;
+    margin-top: auto;
     color: #BA0419;
     font-family: 'Oswald', Arial, sans-serif;
     font-size: 7em;
@@ -124,7 +124,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 2px;
+    margin-top: auto;
     margin-bottom: -1.3%;
     color: #FFCC00;
     font-family: 'Anton', Arial, sans-serif;
@@ -154,7 +154,7 @@ h4 {
 /* CLASS -- MENU */
 
 .menu {
-    margin-top: 2px;
+    margin: auto;
     list-style: none;
     padding: 0;
     font-family: 'Oswald', Arial, sans-serif;
@@ -195,7 +195,7 @@ h4 {
 
 div.gallery {
     display: inline-block;
-    margin: 10px 0 auto;
+    margin: auto;
     padding-left: 4%;
     box-shadow: none;
     border: 0;
@@ -280,7 +280,7 @@ a:visited:hover#mainnav {
     float:left;
     width: 53%;
     padding: 1.5em;
-    margin: 3% 4%;
+    margin: 2.5% 4% 10%;
 }
 
 /* DIV -- WEAPONS */
