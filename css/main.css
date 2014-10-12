@@ -51,7 +51,7 @@ div {
 figure {
     display: table-cell;
     margin: 2% 4% auto;
-    width: 9%;
+    width: 10%;
     vertical-align: top;
     text-align: center;
     overflow: hidden;
@@ -60,7 +60,8 @@ figure {
 figcaption{
     margin: 0 auto;
     padding: 0;
-    width: 45%;
+    width: 75%;
+    font-size: 0.75em;
 }
 
 img {
@@ -281,16 +282,16 @@ a:visited:hover#mainnav {
     float:left;
     width: 53%;
     padding: 1.5em;
-    margin: 2.5% 4% 10%;
+    margin: 2.5% 1% 5% 10%;
 }
 
 /* DIV -- WEAPONS */
 
 #weapons {
     float:left;
-    width: 25%;
+    width: 18.37%;
     padding: 1.5em;
-    margin: 1%;
+    margin: 1% auto;
 }
 
 img#weapons {
@@ -302,7 +303,7 @@ img#weapons {
 
 #figures{
     clear: left;
-    margin: 3em 2em;
+    margin: 5% 10%;
 }
 
 #figures a:link{
