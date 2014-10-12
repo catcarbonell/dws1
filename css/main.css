@@ -66,6 +66,7 @@ figcaption{
 
 img {
     border: 0;
+    width: 75%;
     max-width: 75%;
     height: auto;
     margin: 0 auto;
@@ -73,11 +74,13 @@ img {
     vertical-align: middle;
 }
 
+/* FOR FIREFOX BROWSER USERS
 @-moz-document url-prefix() {
     img {
-        width: 75%;
-    }
+    width: 75%;}
 }
+*/
+
 
 /* GLOBAL TEXT STYLES */
 
