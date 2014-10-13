@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.02" vertical-offset="134" max-vertical-offset="7065">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.30107528" vertical-offset="6252" max-vertical-offset="7035">
+              <caret line="465" column="21" selection-start-line="465" selection-start-column="21" selection-end-line="465" selection-end-column="21" />
               <folding>
                 <element signature="tag#p#2;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#p#3;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45410627" vertical-offset="3003" max-vertical-offset="4845">
-              <caret line="219" column="21" selection-start-line="219" selection-start-column="21" selection-end-line="219" selection-end-column="21" />
+            <state vertical-scroll-proportion="45.192307" vertical-offset="3605" max-vertical-offset="5010">
+              <caret line="162" column="17" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -272,10 +272,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="45.192307" vertical-offset="3605" max-vertical-offset="5010">
+          <caret line="162" column="17" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.02" vertical-offset="134" max-vertical-offset="7065">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.30107528" vertical-offset="6252" max-vertical-offset="7035">
+          <caret line="465" column="21" selection-start-line="465" selection-start-column="21" selection-end-line="465" selection-end-column="21" />
           <folding>
             <element signature="tag#p#2;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#p#3;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
@@ -283,14 +291,6 @@
             <element signature="tag#p#5;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#p#6;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45410627" vertical-offset="3003" max-vertical-offset="4845">
-          <caret line="219" column="21" selection-start-line="219" selection-start-column="21" selection-end-line="219" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
