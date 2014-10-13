@@ -278,9 +278,12 @@ a:visited:hover#mainnav {
     text-align: center;
 }
 
+
+
 /* DIV -- TYPES OF FMA */
 
 #types {
+    clear: left;
     display: inline-block;
     float:left;
     width: 53%;
@@ -312,12 +315,3 @@ img#weapons {
 #figures a:link{
     text-transform: none;
 }
-
-/* DIV -- CLEAR
-
-#clear {
-    clear: left;
-    background: 0;
-
-}
- */
