@@ -302,7 +302,7 @@ a:visited:hover#mainnav {
     float:left;
     width: 53%;
     padding: 1.5em;
-    margin: 3% 1% 10% 10%;
+    margin: 55px 1% 10% 10%;
 }
 
 /* DIV -- WEAPONS */
@@ -311,7 +311,7 @@ a:visited:hover#mainnav {
     float:left;
     width: 19%;
     padding: 1.3em;
-    margin: 1.65% auto;
+    margin: 55px auto;
 }
 
 img#weapons {
