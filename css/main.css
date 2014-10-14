@@ -223,7 +223,7 @@ div.gallery {
 
 /* DIV -- MAIN NAVIGATION */
 div#mainnav {
-    margin: -8% -1%;
+    margin: -8% -0.65%;
     padding: 0;
     width: 100%;
     height: auto;
@@ -335,16 +335,16 @@ img#weapons {
 
 /* DIV -- FIGURES */
 
-#figures{
+#figures {
     clear: left;
     margin: 5% 10%;
 }
 
-#figures a:link{
+#figures a:link {
     text-transform: none;
 }
 
 /* DIV -- FOOTER */
-p#credits{
+p#credits {
     text-align: center;
 }
