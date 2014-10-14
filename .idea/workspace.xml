@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ee40414-faf3-4b98-b6aa-050fbb5f83c9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dws1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="5289" max-vertical-offset="7650">
-              <caret line="365" column="35" selection-start-line="365" selection-start-column="35" selection-end-line="365" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.8655914" vertical-offset="6777" max-vertical-offset="7710">
+              <caret line="484" column="78" selection-start-line="484" selection-start-column="78" selection-end-line="484" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -65,8 +66,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="80" />
+    <option name="x" value="27" />
+    <option name="y" value="150" />
     <option name="width" value="1258" />
     <option name="height" value="718" />
   </component>
@@ -170,7 +171,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="80" width="1258" height="718" extended-state="0" />
+    <frame x="27" y="150" width="1258" height="718" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -285,8 +286,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="5289" max-vertical-offset="7650">
-          <caret line="365" column="35" selection-start-line="365" selection-start-column="35" selection-end-line="365" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.8655914" vertical-offset="6777" max-vertical-offset="7710">
+          <caret line="484" column="78" selection-start-line="484" selection-start-column="78" selection-end-line="484" selection-end-column="78" />
           <folding />
         </state>
       </provider>
