@@ -292,7 +292,10 @@ a:visited:hover#mainnav {
     text-align: center;
 }
 
-
+/* DIV -- HISTORY */
+#history {
+    margin: 100px 10%;
+}
 
 /* DIV -- TYPES OF FMA */
 
