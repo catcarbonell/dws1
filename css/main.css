@@ -332,3 +332,8 @@ img#weapons {
 #figures a:link{
     text-transform: none;
 }
+
+/* DIV -- FOOTER */
+p#credits{
+    text-align: center;
+}
