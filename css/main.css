@@ -8,6 +8,13 @@ body {
     font-family: 'Questrial', Arial, sans-serif;
 }
 
+.container {
+    margin: 0 auto;
+    border: 0;
+    background: none;
+    box-shadow: none;
+}
+
 /* GLOBAL LINKS */
 
 a:link {
@@ -45,7 +52,7 @@ div {
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 9px 10px 13px 0 rgba(0,0,0,0.45);
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 figure {
@@ -223,7 +230,7 @@ div.gallery {
 
 /* DIV -- MAIN NAVIGATION */
 div#mainnav {
-    margin: -8% -0.65%;
+    margin: -8px -0.65%;
     padding: 0;
     width: 100%;
     height: auto;
