@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ee40414-faf3-4b98-b6aa-050fbb5f83c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="dws1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-36.208332" vertical-offset="6991" max-vertical-offset="7950">
-              <caret line="524" column="7" selection-start-line="524" selection-start-column="7" selection-end-line="524" selection-end-column="7" />
+            <state vertical-scroll-proportion="2.0273972" vertical-offset="6436" max-vertical-offset="8025">
+              <caret line="508" column="8" selection-start-line="508" selection-start-column="8" selection-end-line="508" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25882354" vertical-offset="626" max-vertical-offset="3285">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+            <state vertical-scroll-proportion="-19.76923" vertical-offset="626" max-vertical-offset="3285">
+              <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
               <folding>
                 <element signature="e#1302#1436#0" expanded="false" />
                 <element signature="e#1510#1586#0" expanded="false" />
@@ -87,8 +87,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/carbonellURL.txt" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -431,18 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.208332" vertical-offset="6991" max-vertical-offset="7950">
-          <caret line="524" column="7" selection-start-line="524" selection-start-column="7" selection-end-line="524" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25882354" vertical-offset="626" max-vertical-offset="3285">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state vertical-scroll-proportion="-19.76923" vertical-offset="626" max-vertical-offset="3285">
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
           <folding>
             <element signature="e#1302#1436#0" expanded="false" />
             <element signature="e#1510#1586#0" expanded="false" />
@@ -472,6 +464,14 @@
             <element signature="e#6379#6408#0" expanded="false" />
             <element signature="e#6440#6467#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0273972" vertical-offset="6436" max-vertical-offset="8025">
+          <caret line="508" column="8" selection-start-line="508" selection-start-column="8" selection-end-line="508" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
