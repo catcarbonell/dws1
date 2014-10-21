@@ -244,7 +244,7 @@ figure.column {
 
 /* CLASS -- GALLERY */
 
-div.gallery {
+.gallery {
     display: inline-block;
     margin: 0 auto;
     padding-left: 4%;
@@ -322,13 +322,17 @@ a:visited:hover nav {
     margin: 55px 1% 10% 10%;
 }
 
-/* DIV -- WEAPONS */
+/* WEAPONS */
 
 #weapons {
     float:left;
     width: 19%;
     padding: 1.3em;
     margin: 55px auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 9px 10px 13px 0 rgba(0,0,0,0.45);
+    opacity: 0.9;
 }
 
 img#weapons {
