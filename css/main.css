@@ -64,6 +64,7 @@ figure {
     overflow: hidden;
 }
 
+
 figcaption{
     margin: 0 auto;
     padding: 0;
@@ -87,7 +88,6 @@ img {
     width: 75%;}
 }
 */
-
 
 /* GLOBAL TEXT STYLES */
 
@@ -121,6 +121,51 @@ blockquote {
     font-family: Georgia, serif;
     font-style: italic;
     font-size: 2.5em;
+}
+
+/* TABLE STYLES */
+table {
+    margin: 2px auto;
+    padding: 10px;
+    width: 75%;
+    vertical-align: top;
+    text-align: center;
+    background-color: #ffffff;
+    border: 0;
+    border-collapse: separate;
+    border-spacing: 1px 5px;
+    font-size: 0.8em;
+}
+
+th{
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #cccccc;
+}
+
+tr {
+    padding: 10px;
+    background-color: #eeeeee;
+}
+
+tr:hover{
+    background-color: #ddeeff;
+}
+
+tr.odd{
+    padding: 10px;
+    margin: 10px;
+    background-color: #fefefe;
+
+}
+
+tr.odd:hover {
+    background-color: #ddeeff;
+}
+
+td{
+    padding: 10px;
 }
 
 /* HEADERS */
@@ -160,7 +205,7 @@ h4 {
     position: relative;
 }
 
-/*  MAIN HEADER */
+/* MAIN HEADER */
 
 header {
     background: #ffffff url(../images/headerbg3.png);
@@ -185,6 +230,20 @@ header a{
 
 header p{
     margin-top: -35px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    border: 0;
+    margin: 10% 10%;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 9px 10px 13px 0 rgba(0,0,0,0.45);
+    opacity: 0.9;
+}
+p#credits {
     text-align: center;
 }
 
@@ -351,16 +410,4 @@ img#weapons {
     text-transform: none;
 }
 
-/* FOOTER */
-footer {
-    border: 0;
-    margin: 10% 10%;
-    padding: 15px 20px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 9px 10px 13px 0 rgba(0,0,0,0.45);
-    opacity: 0.9;
-}
-p#credits {
-    text-align: center;
-}
+
