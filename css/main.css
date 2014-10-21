@@ -149,7 +149,7 @@ tr {
     background-color: #eeeeee;
 }
 
-tr:hover{
+tr:hover, tr.odd:hover{
     background-color: #ddeeff;
 }
 
@@ -158,10 +158,6 @@ tr.odd{
     margin: 10px;
     background-color: #fefefe;
 
-}
-
-tr.odd:hover {
-    background-color: #ddeeff;
 }
 
 td{
@@ -178,16 +174,22 @@ form {
     text-align: center;
 }
 
-input {
+input, textarea{
     margin: 2px auto;
     padding: 3px;
     border: 1px #333333;
     box-shadow: none;
     background-color: #eeeeee;
+    font-family: 'Questrial', Arial, sans-serif;
 }
-p form{
-    text-align: center;
+
+label:hover, input:hover,
+textarea:hover{
+    background-color: #ddeeff;
 }
+
+
+
 
 
 /* HEADERS */
