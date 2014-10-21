@@ -60,6 +60,7 @@ div {
 section{
     margin: 10px auto;
     padding: 5px;
+    display: inline;
 }
 
 figure {
@@ -183,6 +184,8 @@ form {
 input, textarea{
     margin: 2px auto;
     padding: 3px;
+    width: auto;
+    height: auto;
     border: 1px #333333;
     box-shadow: none;
     background-color: #eeeeee;
@@ -191,7 +194,8 @@ input, textarea{
 
 label {
     display: inline;
-    margin: 5px;
+    margin: 10px auto;
+    width: auto;
 }
 
 label:hover, input:hover,

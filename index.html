@@ -198,14 +198,14 @@
 
                 <table>
                     <tr>
-                        <th>Name</th>
-                        <th>Meaning</th>
-                        <th>Techniques</th>
-                        <th>Weapons</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Meaning</th>
+                        <th scope="col">Techniques</th>
+                        <th scope="col">Weapons</th>
                     </tr>
 
                     <tr>
-                        <td><a href="#eskrima">Eskrima/Kali/Arnis</a></td>
+                        <td scope="row"><a href="#eskrima">Eskrima/Kali/Arnis</a></td>
                         <td>"Blade", Fencing (Eskrima/Esgrima), Death (Kali)</td>
                         <td>
                             Hand-to-hand combat,joint locks, grappling, weapon disarming
@@ -216,21 +216,21 @@
                     </tr>
 
                     <tr class="odd">
-                        <td><a href="#dumog">Dumog/Buno</a></td>
+                        <td scope="row"><a href="#dumog">Dumog/Buno</a></td>
                         <td>"Being mobbed" (<em>dinudumog</em>)</td>
                         <td>Grappling, pushes, pulls, weight shifts, and joint locks</td>
                         <td>Empty hands, body weight</td>
                     </tr>
 
                     <tr>
-                        <td><a href="#mano">Mano a Mano/Suntukan/Panantukan</a></td>
+                        <td scope="row"><a href="#mano">Mano a Mano/Suntukan/Panantukan</a></td>
                         <td> Punch (Tagalog: <em>Suntok</em>), brawl, "The Art of Fist-Fighting"</td>
                         <td>Grappling, Boxing</td>
                         <td>Empty hands</td>
                     </tr>
 
                     <tr class="odd">
-                        <td><a href="#sikaran">Sikaran</a></td>
+                        <td scope="row"><a href="#sikaran">Sikaran</a></td>
                         <td> Kick (Tagalog: <em>Sikad</em>), "I'm going to kick you" (Capampangan: <em>sikaran daka</em>)</td>
                         <td>Kicking non-vital parts first, with the second strike aiming at highly vulnerable points</td>
                         <td>Empty hands (mostly legs,feet), "pamatay" (lethal kick)</td>
@@ -604,6 +604,7 @@
                 <br />
 
                 <input type="checkbox" name="submission" id="submission"   value="submission">
+
                 <label for="submission">Submission: </label>
                 <select id="subinput" name="subinput">
                     <option value="picture">Images/Pictures</option>
@@ -619,6 +620,10 @@
                 <label for="otherinput"  > </label>
                 <input type="text" name="otherinput" id="otherinput" value="Please specify here"  >
 
+                <p>
+                <strong>*</strong> = required field
+                </p>
+
             </section>
 
             <section class="right">
@@ -627,7 +632,7 @@
 
                 <br />
 
-                <textarea id="questions" cols="40" rows="10" required="required">
+                <textarea id="questions" cols="25" rows="7" required="required">
                 </textarea>
 
                 <br />
@@ -637,6 +642,7 @@
             </section>
 
     </form>
+
 
     </div>
 
