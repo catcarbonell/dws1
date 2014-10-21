@@ -48,11 +48,18 @@ a:visited:hover {
 div {
     border: 0;
     margin: 10% 10%;
+    height: auto;
     padding: 15px 20px;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 9px 10px 13px 0 rgba(0,0,0,0.45);
     opacity: 0.9;
+    overflow: auto;
+}
+
+section{
+    margin: 10px auto;
+    padding: 5px;
 }
 
 figure {
@@ -168,10 +175,9 @@ td{
 form {
     margin: 10px auto;
     padding: 10px;
-    width: 85%;
+    width: 50%;
     background-color: #ffffff;
     font-size: 0.8em;
-    text-align: center;
 }
 
 input, textarea{
@@ -183,12 +189,40 @@ input, textarea{
     font-family: 'Questrial', Arial, sans-serif;
 }
 
+label {
+    display: inline;
+    margin: 5px;
+}
+
 label:hover, input:hover,
 textarea:hover{
     background-color: #ddeeff;
 }
 
+label:focus, input:focus,
+textarea:focus{
+    background-color: #FFCC00;
+}
 
+.left {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    clear: right;
+    margin: 5px auto;
+}
+
+.right{
+    display: inline-block;
+    width: 45%;
+    float: right;
+    margin: 5px auto;
+}
+
+#submit {
+    clear: right;
+    margin: 10px auto;
+}
 
 
 
@@ -256,8 +290,56 @@ header p{
     text-align: center;
 }
 
+/* MAIN NAVIGATION */
+nav {
+    margin: -10px -0.65%;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    border-radius: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
+    box-shadow: none;
+    position: fixed;
+    vertical-align: top;
+    opacity: 0.9;
+    z-index: 100;
+}
+
+li nav {
+    display: inline;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+a:link nav {
+    color: #BA0419;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a:active nav {
+    color: #FFCC00;
+}
+
+a:hover nav {
+    color: #375695;
+}
+
+a:visited nav {
+    color: #BA0419;
+}
+
+a:visited:hover nav {
+    color: #375695;
+}
+
 /* FOOTER */
 footer {
+    clear: both;
     border: 0;
     margin: 10% 10%;
     padding: 15px 20px;
@@ -339,55 +421,6 @@ figure.column {
 
 /* DIV IDs */
 
-/* DIV -- MAIN NAVIGATION */
-nav {
-    margin: -10px -0.65%;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    border-radius: 0;
-    background: rgb(255,255,255);
-    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
-    box-shadow: none;
-    position: fixed;
-    vertical-align: top;
-    opacity: 0.9;
-    z-index: 100;
-    }
-
-li nav {
-    display: inline;
-    text-align: center;
-    line-height: 1.5em;
-}
-
-a:link nav {
-    color: #BA0419;
-    font-family: 'Oswald', Arial, sans-serif;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-a:active nav {
-    color: #FFCC00;
-}
-
-a:hover nav {
-    color: #375695;
-}
-
-a:visited nav {
-    color: #BA0419;
-}
-
-a:visited:hover nav {
-    color: #375695;
-}
-
-
-
 /* DIV -- HISTORY */
 #history {
     margin: 100px 10%;
@@ -432,5 +465,9 @@ img#weapons {
 #figures a:link {
     text-transform: none;
 }
+
+
+
+
 
 

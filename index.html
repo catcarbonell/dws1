@@ -49,7 +49,6 @@
 
         </header>
 
-<!-- CONTENT -->
 
 <!-- HISTORY -->
         <div id="history">
@@ -581,40 +580,65 @@
 
 
 <!-- CONTACT -->
-<div id="contactform">
-    <h2>Contact</h2>
+    <div id="contactform">
 
-    <form enctype="text/plain" method="get" action="mailto:penthesyllea@gmail.com">
-        <label for="username">Name:</label> <input type="text" id="username" name="username"/>
-        &nbsp; <label for="email">Email:</label> <input type="text" id="email" name="email"/>
+        <h2>Contact</h2>
 
-        <br />
+        <form enctype="text/plain" method="get" action="mailto:penthesyllea@gmail.com">
+                <section class="left">
+                <label for="username">Name*:</label> <input type="text" id="username" name="username" required="required">
+                <br />
+                <label for="email">Email*:</label> <input type="text" id="email" name="email" required="required">
 
-        Subject relation:
+                <br />
 
-        <br />
-        <input type="checkbox" name="submission" id="submission" value="Submission"> <label for="submission"> I'd like to submit something!</label>
-        <input type="checkbox" name="facts" id="facts"  value="Fact Correction"><label for="facts"> Fact correction</label>
+                Subject:
 
-        <br />
+                <br />
+                <input type="checkbox" name="comment" id="comment" value="comment">
+                <label for="comment">Comment</label>
 
-        <input type="checkbox" name="other" id="other" value="Other"> <label for="other">Other:</label>
-        <label for="otherinput"> </label>
-        <input type="text" name="otherinput" id="otherinput" value="Please specify here">
+                <input type="checkbox" name="question" id="question" value="question">
+                <label for="question">Question</label>
 
-        <br />
-        <label for="questions">Questions? Comments? Concerns?</label>
-        <br />
-        <textarea id="questions" rows="4" cols="50">
+                <br />
 
-        </textarea>
+                <input type="checkbox" name="submission" id="submission"   value="submission">
+                <label for="submission">Submission: </label>
+                <select id="subinput" name="subinput">
+                    <option value="picture">Images/Pictures</option>
+                    <option value="fact">Additional Facts</option>
+                    <option value="sourcelinks">Source Link</option>
+                </select>
 
-        <br />
+                <br />
 
-        <input value="Submit" type="submit">
+                <input type="checkbox" name="other" id="other" value="Other">
+                <label for="other">Other:</label>
+
+                <label for="otherinput"  > </label>
+                <input type="text" name="otherinput" id="otherinput" value="Please specify here"  >
+
+            </section>
+
+            <section class="right">
+
+                <label for="questions">Questions? Comments? Concerns? * </label>
+
+                <br />
+
+                <textarea id="questions" cols="40" rows="10" required="required">
+                </textarea>
+
+                <br />
+
+                <input value="Submit" type="submit" id="submit">
+
+            </section>
 
     </form>
-</div>
+
+    </div>
 
 <!-- LINKS -->
         <footer id="links">
