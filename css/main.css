@@ -10,7 +10,6 @@ body {
 
 .container {
     margin: 0 auto;
-    border: 0;
     background: none;
     box-shadow: none;
 }
@@ -88,6 +87,9 @@ img {
     margin: 0 auto;
     padding: 2em;
     vertical-align: middle;
+}
+img:hover {
+    background-color: #ddeeff;
 }
 
 /* FOR FIREFOX BROWSER USERS
@@ -176,7 +178,7 @@ td{
 form {
     margin: 10px auto;
     padding: 10px;
-    width: 50%;
+    width: 61%;
     background-color: #ffffff;
     font-size: 0.8em;
 }
@@ -208,23 +210,25 @@ textarea:focus{
     background-color: #FFCC00;
 }
 
-.left {
-    display: inline-block;
-    width: 45%;
+#left {
     float: left;
-    clear: right;
-    margin: 5px auto;
+    display: inline-block;
+    margin: 0 auto;
+    width: 200px;
+    background: none;
+    box-shadow: none;
 }
 
-.right{
-    display: inline-block;
-    width: 45%;
+#right {
     float: right;
-    margin: 5px auto;
+    display: inline-block;
+    margin: 0 auto;
+    width: 250px;
+    background: none;
+    box-shadow: none;
 }
 
 #submit {
-    clear: right;
     margin: 10px auto;
 }
 
@@ -265,6 +269,15 @@ h4 {
     font-size: 1.5em;
     text-align: center;
     position: relative;
+}
+
+h5 {
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+    color: #BA0419;
+    font-family: 'Questrial', Arial, sans-serif;
+    font-size: 1em;
 }
 
 /* MAIN HEADER */
