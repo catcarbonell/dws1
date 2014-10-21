@@ -347,7 +347,16 @@ img#weapons {
     text-transform: none;
 }
 
-/* DIV -- FOOTER */
+/* FOOTER */
+footer {
+    border: 0;
+    margin: 10% 10%;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 9px 10px 13px 0 rgba(0,0,0,0.45);
+    opacity: 0.9;
+}
 p#credits {
     text-align: center;
 }
