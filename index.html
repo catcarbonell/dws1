@@ -9,8 +9,17 @@
 <!--CSS -->
     <link href='css/main.css' type='text/css' rel='stylesheet' />
 
-<!-- FEATHERLIGHTBOX -->
-    <link href="//rawgithub.com/noelboss/featherlight/master/src/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
+<!-- JQUERY FANCYBOX IMG POPUP -->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.fancybox').fancybox();
+        });
+    </script>
 
 <!-- FONTS -->
     <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css' />
@@ -397,17 +406,17 @@
                 <h3>Impact</h3>
 
                 <figure class="column">
-                    <a href="images/weapons/rattanEskrima.jpg" target="new" data-featherlight="EskrimaStick"><img src="images/weapons/rattanEskrima.jpg" alt="Rattan Eskrima Stick" /></a>
+                    <a href="images/weapons/rattanEskrima.jpg" target="new" class="fancybox"><img src="images/weapons/rattanEskrima.jpg" alt="Rattan Eskrima Stick" /></a>
                     <figcaption>The Rattan Stick - made of Bamboo</figcaption>
                 </figure>
 
                 <figure class="column">
-                    <a href="images/weapons/tactical.jpg" target="new"><img src="images/weapons/tactical.jpg" alt="Tactical Baton"   /></a>
+                    <a href="images/weapons/tactical.jpg" target="new" class="fancybox"><img src="images/weapons/tactical.jpg" alt="Tactical Baton"   /></a>
                     <figcaption>Tactical Baton - a modern weapon utilized by military, police, or even civilians</figcaption>
                 </figure>
 
                 <figure class="column">
-                    <a href="images/weapons/chako.jpg" target="new"><img src="images/weapons/chako.jpg" alt="Tabak Toyok or Chako"   /></a>
+                    <a href="images/weapons/chako.jpg" target="new" class="fancybox"><img src="images/weapons/chako.jpg" alt="Tabak Toyok or Chako"   /></a>
                     <figcaption>Tabak Toyok or Chako - The Filipino nunchuck with shorter ends and a longer chain</figcaption>
                 </figure>
             </section>
@@ -416,17 +425,17 @@
                 <h3>Edged</h3>
 
                 <figure class="column">
-                    <a href="images/weapons/balisong.jpg" target="new"><img src="images/weapons/balisong.jpg" alt="Balisong"   /></a>
+                    <a href="images/weapons/balisong.jpg" target="new" class="fancybox"><img src="images/weapons/balisong.jpg" alt="Balisong"   /></a>
                     <figcaption>The Balisong - aka Butterfly Knife</figcaption>
                 </figure>
 
                 <figure class="column">
-                    <a href="images/weapons/visayanBlades.jpg" target="new"><img src="images/weapons/visayanBlades.jpg" alt="Visayan Blades"   /></a>
+                    <a href="images/weapons/visayanBlades.jpg" target="new" class="fancybox"><img src="images/weapons/visayanBlades.jpg" alt="Visayan Blades"   /></a>
                     <figcaption>A Visayan long blade (Ginunting) and three short blades (Talibong)</figcaption>
                 </figure>
 
                 <figure class="column">
-                    <a href="images/weapons/karambit.jpg" target="new"><img src="images/weapons/karambit.jpg" alt="Karambits"   /></a>
+                    <a href="images/weapons/karambit.jpg" target="new" class="fancybox"><img src="images/weapons/karambit.jpg" alt="Karambits"   /></a>
                     <figcaption>The Karambit - Rounded blade for "gunting" techniques.<br /> Also used in Southeast Asian Martial Art: <a href="http://en.wikipedia.org/wiki/Silat" target="new">Silat</a>.</figcaption>
                 </figure>
             </section>
@@ -452,7 +461,7 @@
 
                 <figure>
                     <h4 id="cabales">Great Grandmaster <br /> Angel Cabales <sup>&#10013;</sup></h4>
-                    <a href="images/masters/cabales.jpg" target="new"><img src="images/masters/cabales.jpg"  alt="Great Grandmaster Angel Cabales"   /></a>
+                    <a href="images/masters/cabales.jpg" target="new" class="fancybox"><img src="images/masters/cabales.jpg"  alt="Great Grandmaster Angel Cabales"   /></a>
                     <figcaption>
                         Created <br /> the <a href="http://www.angelsdisciples.net/" target="new">Serrada Eskrima</a> system
                     </figcaption>
@@ -460,7 +469,7 @@
 
                 <figure>
                     <h4 id="castro"> Grandmaster <br /> Robert Castro</h4>
-                    <a href="images/masters/castro.jpg" target="new"><img src="images/masters/castro.jpg" alt="Grandmaster Robert Castro"   /></a>
+                    <a href="images/masters/castro.jpg" target="new" class="fancybox"><img src="images/masters/castro.jpg" alt="Grandmaster Robert Castro"   /></a>
                     <figcaption>
                         Founder of <br /> the <a href="http://eskabodaan.org" target="new">Eskabo Daan</a> system
                     </figcaption>
@@ -468,7 +477,7 @@
 
                 <figure>
                     <h4 id="inay"><a href="http://www.Mangisursuro.com" target="new">Mangisursuro<br /> Michael Inay <sup>&#10013;</sup></a></h4>
-                    <a href="images/masters/inay.jpg" target="new"><img src="images/masters/inay.jpg" alt="Magnisursuro Michael Inay"   /></a>
+                    <a href="images/masters/inay.jpg" target="new" class="fancybox"><img src="images/masters/inay.jpg" alt="Magnisursuro Michael Inay"   /></a>
                     <figcaption>
                         Founder of the <br /> <a href="http://www.inayanmartialarts.com/" target="new">Inayan</a> <a href="http://www.Inayan-Eskrima.com">System</a> of Eskrima
                     </figcaption>
@@ -478,7 +487,7 @@
 
                 <figure>
                     <h4 id="inosanto">Guro<br /> Dan Inosanto</h4>
-                    <a href="images/masters/inosanto.jpg" target="new"><img src="images/masters/inosanto.jpg" alt="Dan Inosanto"   /></a>
+                    <a href="images/masters/inosanto.jpg" target="new" class="fancybox"><img src="images/masters/inosanto.jpg" alt="Dan Inosanto"   /></a>
                 <figcaption>
                     Taught <a href="http://inosanto.com/" target="new">Eskrima</a> to Bruce Lee <br /> for the movie <br /> <em><a href="http://en.wikipedia.org/wiki/Game_of_Death" target="new">"Game of Death"</a></em>
                 </figcaption>
@@ -486,7 +495,7 @@
 
                 <figure>
                     <h4 id="epresas">Great Grandmaster<br /> Ernesto Presas <sup>&#10013;</sup></h4>
-                    <a href="images/masters/epresas.jpg" target="new"><img src="images/masters/epresas.jpg" alt="Great Grandmaster Ernesto Presas"   /></a>
+                    <a href="images/masters/epresas.jpg" target="new" class="fancybox"><img src="images/masters/epresas.jpg" alt="Great Grandmaster Ernesto Presas"   /></a>
                     <figcaption>
                         Founder of <br /> <a href="http://www.kombatan.info/" target="new">Kombatan</a>
                     </figcaption>
@@ -494,7 +503,7 @@
 
                 <figure>
                     <h4 id="rpresas">Grandmaster<br /> Remy Presas <sup>&#10013;</sup></h4>
-                    <a href="images/masters/rpresas.jpg" target="new"><img src="images/masters/rpresas.jpg" alt="Grandmaster Remy Presas"   /></a>
+                    <a href="images/masters/rpresas.jpg" target="new" class="fancybox"><img src="images/masters/rpresas.jpg" alt="Grandmaster Remy Presas"   /></a>
                     <figcaption>Founder of <br /> <a href="http://www.modernarnis.com/">Modern Arnis</a></figcaption>
                 </figure>
 
@@ -509,19 +518,19 @@
 
                     <figure>
                         <h4 id="nightwing">Nightwing<br /> Dick Grayson</h4>
-                        <a href="images/characters/nightwing.jpg" target="new"><img src="images/characters/nightwing.jpg" alt="Nightwing"   /></a>
+                        <a href="images/characters/nightwing.jpg" target="new" class="fancybox"><img src="images/characters/nightwing.jpg" alt="Nightwing"   /></a>
                         <figcaption>Video Games/Comics - <em>Batman</em> <br /> Weapon: Eskrima Sticks (Serrada-style)</figcaption>
                     </figure>
 
                     <figure>
                         <h4 id="talim">Talim</h4>
-                        <a href="images/characters/talim.jpg" target="new"><img src="images/characters/talim.jpg" alt="Talim"   /></a>
+                        <a href="images/characters/talim.jpg" target="new" class="fancybox"><img src="images/characters/talim.jpg" alt="Talim"   /></a>
                     <figcaption>Video Games - <em>Soul Calibur</em> <br /> Weapon: Blades/Tonfa</figcaption>
                     </figure>
 
                     <figure>
                         <h4 id="rinka">Rinka Urushiba</h4>
-                        <a href="images/characters/rinka.jpg" target="new"><img src="images/characters/rinka.jpg" alt="Rinka Urushiba"   /></a>
+                        <a href="images/characters/rinka.jpg" target="new" class="fancybox"><img src="images/characters/rinka.jpg" alt="Rinka Urushiba"   /></a>
                         <figcaption>Comics - <em>Tokyo ESP</em> <br /> Weapon: Double Tactical Batons</figcaption>
                     </figure>
 
@@ -529,13 +538,13 @@
 
                     <figure>
                         <h4 id="kickass">Kickass<br/> Dave Lizewski</h4>
-                        <a href="images/characters/kickass.jpg" target="new"><img src="images/characters/kickass.jpg" alt="Kickass"   /></a>
+                        <a href="images/characters/kickass.jpg" target="new" class="fancybox"><img src="images/characters/kickass.jpg" alt="Kickass"   /></a>
                         <figcaption>ilm/Comics - <em>KickAss</em> <br /> Weapon: Batons</figcaption>
                     </figure>
 
                         <figure>
                             <h4 id="sonya">Sonya Blade</h4>
-                            <a href="images/characters/sonya.jpg" target="new"><img src="images/characters/sonya.jpg" alt="Sonya Blade"   /></a>
+                            <a href="images/characters/sonya.jpg" target="new" class="fancybox"><img src="images/characters/sonya.jpg" alt="Sonya Blade"   /></a>
                             <figcaption>Video Games - <em>Mortal Kombat</em> <br /> Weapon: Kali Sticks</figcaption>
                         </figure>
 
@@ -551,29 +560,29 @@
             <div class="gallery">
 
                 <figure>
-                    <a href="images/action/empty.jpg" target="new"><img src="images/action/empty.jpg" alt="Empty Hands"   /></a>
+                    <a href="images/action/empty.jpg" target="new" class="fancybox"><img src="images/action/empty.jpg" alt="Empty Hands"   /></a>
                     <figcaption>Empty-hand demonstration by Guro Dan Inosanto</figcaption>
                 </figure>
 
                 <figure>
-                    <a href="images/action/DefangingSnake.jpg" target="new"><img src="images/action/DefangingSnake.jpg" alt="Defanging the Snake"   /></a>
+                    <a href="images/action/DefangingSnake.jpg" target="new" class="fancybox"><img src="images/action/DefangingSnake.jpg" alt="Defanging the Snake"   /></a>
                     <figcaption>Master Joseph Bautista of Eskabo Daan demonstrating how to "Defang the Snake"</figcaption>
                 </figure>
 
                 <figure>
-                    <a href="images/action/sparring.jpg" target="new"><img src="images/action/sparring.jpg" alt="Sparring"   /></a>
+                    <a href="images/action/sparring.jpg" target="new" class="fancybox"><img src="images/action/sparring.jpg" alt="Sparring"   /></a>
                     <figcaption>Sparring matches are a tradition during testing sessions</figcaption>
                 </figure>
 
                 <br />
 
                 <figure>
-                    <a href="images/action/stick.jpg" target="new"><img src="images/action/stick.jpg" alt="Single Stick to Stick"   /></a>
+                    <a href="images/action/stick.jpg" target="new" class="fancybox"><img src="images/action/stick.jpg" alt="Single Stick to Stick"   /></a>
                     <figcaption>Single Stick techniques demonstrated by Inayan Eskrima students</figcaption>
                 </figure>
 
                 <figure>
-                    <a href="images/action/kaliflow.jpg" target="new"><img src="images/action/kaliflow.jpg" alt="Kali Flow"   /></a>
+                    <a href="images/action/kaliflow.jpg" target="new" class="fancybox"><img src="images/action/kaliflow.jpg" alt="Kali Flow"   /></a>
                     <figcaption>The Kali Flow demonstrated by Eskabo Daan students</figcaption>
                 </figure>
 
@@ -671,10 +680,6 @@
 
 
     </div>
-<!--FEATHER LIGHTBOX SCRIPT -->
-
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="http://rawgithub.com/noelboss/featherlight/master/src/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 </body>
 </html>
