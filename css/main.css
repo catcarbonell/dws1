@@ -281,6 +281,15 @@ h5 {
     font-size: 1em;
 }
 
+h6{
+    color: #000000;
+    font-family: 'Questrial', Arial, sans-serif;
+    font-size: 1em;
+    text-align: left;
+    display: inline;
+    font-weight: normal;
+}
+
 /* MAIN HEADER */
 
 header {
