@@ -57,9 +57,8 @@ div {
 }
 
 section{
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 5px;
-    display: inline;
 }
 
 figure {
@@ -178,26 +177,27 @@ td{
 form {
     margin: 10px auto;
     padding: 10px;
-    width: 20%;
+    width: 30%;
+    height: auto;
     text-align: center;
     background-color: #ffffff;
     font-size: 0.8em;
 }
 
 input, textarea{
-    margin: 2px auto;
+    margin: 1px auto;
     padding: 3px;
+    border: 0;
     width: auto;
     height: auto;
-    border: 1px #333333;
     box-shadow: none;
     background-color: #eeeeee;
     font-family: 'Questrial', Arial, sans-serif;
 }
 
 label {
-    display: inline;
-    margin: 10px auto;
+    display: inline-block;
+    margin: 1px auto;
     width: auto;
 }
 
@@ -483,9 +483,4 @@ img#weapons {
 #figures a:link {
     text-transform: none;
 }
-
-
-
-
-
 

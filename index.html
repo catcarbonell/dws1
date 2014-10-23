@@ -598,7 +598,7 @@
 
             <form enctype="text/plain" method="get" action="mailto:penthesyllea@gmail.com">
 
-                    <h5><strong>*</strong> = required field</h5>
+                    <section><h5><strong>*</strong> = required field</h5>
 
                     <label for="username" >Name*:</label>
                     <input type="text" id="username" name="username" placeholder="Name" required="required" />
@@ -609,11 +609,14 @@
 
                     <input type="text" id="email" name="email" placeholder="Email" required="required" />
 
+                    </section>
+
+                    <section>
+
+                    <h5>Subject:</h5>
+
                     <br />
 
-                    Subject:
-
-                    <br />
                     <input type="checkbox" name="comment" id="comment" value="comment" />
                     <label for="comment">Comment</label>
 
@@ -631,16 +634,18 @@
                         <option value="sourcelinks">Source Link</option>
                     </select>
 
-                    <br />
+                    </section>
+
+                    <section>
 
                     <input type="checkbox" name="other" id="other" value="Other" />
                     <label for="otherinput">Other:</label>
                     <input type="text" name="otherinput" placeholder="Please specify here" id="otherinput" />
 
+                    </section>
+                    <section>
 
                     <h5><label for="questions">Questions? Comments? Concerns? * </label></h5>
-
-                    <br />
 
                     <textarea id="questions" cols="25" rows="7" required="required" placeholder="Type as much as you like!">
                     </textarea>
@@ -649,7 +654,7 @@
 
                     <input value="Submit" type="submit" id="submit" />
 
-
+                    </section>
 
             </form>
 
