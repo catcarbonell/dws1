@@ -178,7 +178,8 @@ td{
 form {
     margin: 10px auto;
     padding: 10px;
-    width: 61%;
+    width: 20%;
+    text-align: center;
     background-color: #ffffff;
     font-size: 0.8em;
 }
